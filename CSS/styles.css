@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-}
+	/* font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; */
+	font-family: 'Roboto', sans-serif;
+} 
 body{
 	text-align: center;
 	background: url("../Images/dark.png");
@@ -14,19 +16,22 @@ body{
 	font-size: 2rem;
 }
 a{
+	font-weight: 300;
 	text-decoration: none;
-	color: crimson;
+	color: rgb(0,0,0);
 	transition: all 0.25s ease;
 	font-size: 1.5rem;
 }
 a:hover{
-	color: chartreuse;
+	color: green;
+	opacity: 1;
 	font-size: 2rem;
 }
 h1{
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 5rem;
 }
 p{
+	font-weight: 300;
 	font-size: 2rem;
 }
