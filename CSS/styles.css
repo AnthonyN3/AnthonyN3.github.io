@@ -2,10 +2,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	/* font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; */
 	font-family: 'Roboto', sans-serif;
-} 
+}
 body{
 	text-align: center;
 	background: url("../Images/dark.png");
@@ -24,7 +23,6 @@ a{
 }
 a:hover{
 	color: green;
-	opacity: 1;
 	font-size: 2rem;
 }
 h1{
@@ -34,4 +32,11 @@ h1{
 p{
 	font-weight: 300;
 	font-size: 2rem;
+}
+#icon_list li{
+	vertical-align: middle;
+	display: inline-block;
+	padding: 10px;
+	width: 5rem;
+	height: 5rem;
 }
