@@ -31,7 +31,7 @@ p.text-line {
 	text-align: center;
 	margin: 0 auto;
 	font-weight: 300;
-	font-size: 2.5em;
+	font-size: 2.3em;
 	color: rgba(255,255,255,0.75);
 
 	/*create cursor effect*/
@@ -115,7 +115,7 @@ a:active {
 		width: 0em;
 	}
 	100% {
-		width: 13em;
+		width: 15.5em;
 	}
 }
 
