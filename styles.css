@@ -102,7 +102,7 @@ a:active {
 /***** Animation *****/
 
 .typing-animation {
-	animation: cursor_blink 530ms ease 2 normal, typing 3s steps(30) 1s 1 normal both, cursor_blink 530ms ease 4s infinite normal;
+	animation: cursor_blink 530ms ease 1 normal, typing 3s steps(30) 0.5s 1 normal both, cursor_blink 530ms ease 4s infinite normal;
 }
 
 @keyframes typing {
