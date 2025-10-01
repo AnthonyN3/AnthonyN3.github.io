@@ -32,7 +32,6 @@ p.text-line {
 	color: rgba(255,255,255,0.75);
 
 	/*create cursor effect*/
-	width: 13em;
 	border-right: 2px solid rgba(255,255,255,0.75); /*Cursor illusion*/
 	white-space: nowrap; /*Don't allow wrapping so text stays on one line*/
 	overflow: hidden; /*Hide text creating typing illusion*/
@@ -82,7 +81,6 @@ nav {
 
 a {
 	text-decoration: none;
-	font-size: 1.5em;
 	transition: all 0.25s ease;
 }
 
